@@ -1,0 +1,1 @@
+Exercício desconsiderado pois foi realizado dentro do exercício 004.
