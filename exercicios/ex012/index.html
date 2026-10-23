@@ -1,0 +1,29 @@
+<!-- 
+Capítulo 11 Aula 4 – Formatos de vídeo para seu site
+Capítulo 11 Aula 5 – Vídeos em hospedagem própria
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HMTL5</title>
+</head>
+<body>
+    <h1>Inserindo vídoes hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagens/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <!-- Caso não ache os vídeos -->
+        <p>Seu navegador não tem compatibildade com reprodução de vídeos.</p>
+    </video>
+
+    <!-- Capítulo 11 Aula 6 – Incorporação de vídeos externos -->
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YcswnKuO4RI?si=8L9SPsX69nN-KfWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
