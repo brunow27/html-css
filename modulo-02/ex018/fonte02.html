@@ -1,0 +1,42 @@
+<!--
+Capítulo 14 Aula 07 – Usando fontes externas baixadas
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Cantara';
+            src: url(fonts/CantaraGotica.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            = embbed-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Cantara', serif;
+            font-size: 3em;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestias, quia expedita fuga voluptates nemo dignissimos labore consequatur, rerum repudiandae sed, cupiditate illum consequuntur necessitatibus ad earum enim in quaerat.</p>
+</body>
+</html>
